@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Reh Bolos & Doces</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background:#fff5f7;
+            color:#333;
+        }
+
+        header{
+            background:linear-gradient(135deg, #ffb6c1, #ffc0cb);
+            padding:40px 20px;
+            text-align:center;
+        }
+
+        .logo{
+            width:160px;
+            border-radius:50%;
+            border:4px solid white;
+            box-shadow:0 4px 10px rgba(0,0,0,0.2);
+            margin-bottom:20px;
+        }
+
+        h1{
+            font-size:38px;
+            color:#8b3a62;
+            margin-bottom:15px;
+        }
+
+        .subtitulo{
+            font-size:18px;
+            max-width:700px;
+            margin:auto;
+            line-height:1.6;
+        }
+
+        .links{
+            margin-top:25px;
+        }
+
+        .botao{
+            display:inline-block;
+            margin:10px;
+            padding:14px 28px;
+            background:#d14d72;
+            color:white;
+            text-decoration:none;
+            border-radius:10px;
+            font-weight:bold;
+            transition:0.3s;
+        }
+
+        .botao:hover{
+            background:#b63c5f;
+            transform:scale(1.05);
+        }
+
+        main{
+            max-width:1200px;
+            margin:auto;
+            padding:50px 20px;
+        }
+
+        h2{
+            text-align:center;
+            margin-bottom:40px;
+            color:#8b3a62;
+            font-size:32px;
+        }
+
+        .cardapio{
+            display:grid;
+            grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));
+            gap:30px;
+        }
+
+        .card{
+            background:white;
+            border-radius:15px;
+            overflow:hidden;
+            box-shadow:0 4px 12px rgba(0,0,0,0.1);
+            transition:0.3s;
+        }
+
+        .card:hover{
+            transform:translateY(-5px);
+        }
+
+        .card img{
+            width:100%;
+            height:280px;
+            object-fit:cover;
+        }
+
+        .card h3{
+            padding:20px;
+            text-align:center;
+            color:#d14d72;
+        }
+
+        footer{
+            background:#8b3a62;
+            color:white;
+            text-align:center;
+            padding:25px;
+            margin-top:50px;
+        }
+
+        footer a{
+            color:#ffdbe6;
+            text-decoration:none;
+            font-weight:bold;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <img src="images/logotipo.jpg" alt="Logo Reh Bolos & Doces" class="logo">
+
+        <h1>Reh Bolos & Doces</h1>
+
+        <p class="subtitulo">
+            Transformando momentos especiais em sabores inesquecíveis ✨
+            Bolos personalizados, doces artesanais e muito carinho em cada detalhe.
+        </p>
+
+        <div class="links">
+
+            <a href="https://www.instagram.com/reh.bolosedoces/"
+               target="_blank"
+               class="botao">
+               Instagram
+            </a>
+
+            <a href="https://wa.me/5511939067454?text=Olá,%20gostaria%20de%20fazer%20um%20orçamento!"
+               target="_blank"
+               class="botao">
+               WhatsApp
+            </a>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <h2>Nosso Cardápio</h2>
+
+        <div class="cardapio">
+
+            <div class="card">
+                <img src="images/bolo caixa de leite.png"
+                     alt="Bolo Caixa de Leite">
+
+                <h3>Bolo Caixa de Leite</h3>
+            </div>
+
+            <div class="card">
+                <img src="images/bolo de banana.png"
+                     alt="Bolo de Banana">
+
+                <h3>Bolo de Banana</h3>
+            </div>
+
+            <div class="card">
+                <img src="images/bolo vulcao de cenoura.png"
+                     alt="Bolo Vulcão de Cenoura">
+
+                <h3>Bolo Vulcão de Cenoura</h3>
+            </div>
+
+            <div class="card">
+                <img src="images/bolo de mousse de chocolate.png"
+                alt="Bolo Mousse de Chocolate">
+                <h3>Bolo Mousse de Chocolate</h3>
+            </div>
+
+            <div class="card">
+                <img src="images/bonoffe.png"
+                alt="Bonoffe">
+                <h3>Bonoffe</h3>
+            </div>
+
+    <div class="card">
+                <img src="images/bolo de vulcao.png"
+                alt="Bolo Vulcão Massa Red Velvet ninho/Geleia de frutas vermelhas/Ninho com abacaxi">
+                <h3>Bolo Vulcão Massa Red Velvet Ninho/Geleia de Frutas Vermelhas/Ninho com Abacaxi</h3>
+            </div>
+
+    </main>
+
+    <footer>
+
+        <p>
+            © 2026 Reh Bolos & Doces • 
+        </p>
+
+        <br>
+
+        <a href="pages/sobreomeutrabalho.html">
+            Sobre meu trabalho (Clique)
+        </a>
+
+    </footer>
+
+</body>
+
+</html>
